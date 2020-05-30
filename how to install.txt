@@ -1,0 +1,23 @@
+go to some folder and run this command:
+npm install @angular/cli -g
+
+-g is to install globally ( i think it means angular shall be accessible globally on my machine)
+
+the next thing which you do is create a new project! ( a workspace i presume)
+
+command is ng new <your_project_name>
+
+------ one command which you can use is test out what ng will do but not create anything on file system.
+------ it is ng new <project_name> --dryRun
+------ this will give a message in the end: NOTE: The "dryRun" flag means no changes were made.
+
+------ another command which you can use is to skip installation of node modules
+------ it is ng new <project_name> --skipInstall
+
+so we create project with ng new <your_project_name> (this will take some time so be patient... correcntion.. this may take a lot of time!!!)
+
+oh and it will ask to add routing, just sy yes by pressing 'y' key and add plain CSS for now.
+
+once it does it all you can run it with npm start
+
+and voila!!! access localhost:4200 to see the beautiful app running!!
